@@ -1,21 +1,20 @@
 {
   "name": "portfolio",
-"homepage": "https://mahmoudhamadaa.github.io/react",
+  "homepage": "https://mahmoudhamadaa.github.io/react",
   "description": "Portfolio site for Mahmoud Hamada",
   "repository": "https://github.com/mahmoudhamadaa/react.git",
   "author": " Mahmoud Hamada",
   "sideEffects": false,
   "type": "module",
-"scripts": {
-  "build": "vite build",
-  "dev": "vite", 
-  "predeploy": "npm run build", 
-  "deploy": "gh-pages -d dist",  
-  "dev:storybook": "storybook dev -p 6006",
-  "build:storybook": "storybook build",
-  "deploy:storybook": "wrangler pages deploy ./storybook-static --project-name portfolio-storybook --branch main"
-},
-
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "dev:storybook": "storybook dev -p 6006",
+    "build:storybook": "storybook build",
+    "deploy:storybook": "wrangler pages deploy ./storybook-static --project-name portfolio-storybook --branch main"
+  },
   "dependencies": {
     "@aws-sdk/client-ses": "^3.515.0",
     "@mdx-js/react": "^3.0.1",
@@ -53,6 +52,7 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-storybook": "^0.8.0",
+    "gh-pages": "^6.2.0",
     "node-fetch": "^3.3.2",
     "postcss": "^8.4.33",
     "postcss-custom-media": "^10.0.2",
