@@ -6,3 +6,4 @@ echo ".wrangler" >> .gitignore
 echo ".dev.vars" >> .gitignore
 echo "public/draco" >> .gitignore
 echo "storybook-static" >> .gitignore
+cat .gitignore
