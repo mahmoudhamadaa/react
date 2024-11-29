@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-"homepage": "https://mahmoudhamadaa.github.io/react"
+"homepage": "https://mahmoudhamadaa.github.io/react",
   "description": "Portfolio site for Mahmoud Hamada",
   "repository": "https://github.com/mahmoudhamadaa/react.git",
   "author": " Mahmoud Hamada",
@@ -14,7 +14,7 @@
   "dev:storybook": "storybook dev -p 6006",
   "build:storybook": "storybook build",
   "deploy:storybook": "wrangler pages deploy ./storybook-static --project-name portfolio-storybook --branch main"
-}
+},
 
   "dependencies": {
     "@aws-sdk/client-ses": "^3.515.0",
