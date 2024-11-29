@@ -2,7 +2,7 @@
   "name": "portfolio",
 "homepage": "https://mahmoudhamadaa.github.io/react"
   "description": "Portfolio site for Mahmoud Hamada",
-  "repository": "https://github.com/Mahmoudhamadaa/portfolio.git",
+  "repository": "https://github.com/mahmoudhamadaa/react.git",
   "author": " Mahmoud Hamada",
   "sideEffects": false,
   "type": "module",
